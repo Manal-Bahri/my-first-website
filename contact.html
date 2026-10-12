@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="navbar">
+
+    <a href="index.html">Home</a>
+
+    <a href="about.html">About Me</a>
+
+    <a href="contact.html"class="active">Contact Me</a>
+
+</nav>
+    <div class="card">
+
+        <h1>Contact Me</h1>
+
+        <form id="contactForm">
+
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+
+            
+ <textarea id="contactMessage" placeholder="Your Message" maxlength="300" required></textarea>
+<p id="contactMessageCounter">0 / 300 characters</p>
+
+            <button type="submit" class="send-button">Send Message</button>
+            <p id="formMessage"></p>
+            <button type="button" id="newMessageButton">Send Another Message</button>
+
+        </form>
+
+        <a href="index.html" class="project-button">
+            Back to Home
+        </a>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Webiste</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="scrollProgress"></div>
+        <nav class="navbar">
+
+    <a href="index.html" class="active">Home</a>
+
+    <a href="about.html">About Me</a>
+
+    <a href="contact.html">Contact Me</a>
+
+</nav>
+        <div class="card">
+        <h1>Welcome to My Webiste</h1>
+        <p id="timeGreeting"></p>
+        <p id="currentDate"></p>
+        <div class="visit-box">
+            <h3>Website Visits</h3>
+            <p id="visitCount"></p>
+            <button id="resetVisitsButton">Reset Visits</button>
+            <button id="addVisitButton">Add Visit +1</button>
+            <p id="resetMessage"></p>
+        </div>
+        <div class="welcome-box">
+
+    <input type="text" id="visitorName" placeholder="Enter your name" maxlength="20">
+    <p id="nameCounter">0 / 20 characters</p>
+    <button id="saveNameButton">Save Name</button>
+<button id="forgetNameButton" type="button">Forget Me</button>
+<button id="changeNameButton" type="button">Change Name</button>
+    <p id="welcomeMessage"></p>
+
+</div>
+        <img src="profile.jpg.jpeg" alt="My Profile Picture">
+        <p id="message">My name is Manal, and I am learning web development.</p>
+        <button class="main-button">Click Me</button>
+        <p id="clickCount">You clicked 0 times.</p>
+         <button class="reset-button">Reset</button>
+         <button class="theme-button">Change Theme</button>
+         <div class="About">
+            <h2>About Me</h2>
+            <p>I am Learning web development and building my first Webiste.</p>
+            <a href="about.html" class="project-button">Read More</a>
+         </div>
+         <div class="projects">
+    <h2>My Projects</h2>
+<div class="project-list">
+    <div class="project">
+        <h3>My First Website</h3>
+        <p>A simple website I created while learning HTML, CSS, and JavaScript.</p>
+       <a href="index.html" class="project-button" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>My Portfolio</h3>
+        <p>A personal portfolio website to show my skills and projects.</p>
+         <a href="#" class="project-button">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>My Future Project</h3>
+        <p>A new project I will build as I continue learning web development.</p>
+         <a href="#" class="project-button">View Project</a>
+    </div>
+</div>
+</div>
+<div class="skills">
+    <h2>my skills</h2>
+    <div class="skills">Html</div>
+    <div class="skills">CSS</div>
+    <div class="skills">JavaScript</div>
+    
+    <a href="mailto:example@gmail.com">Contact Me</a>
+    <button id="copyEmailButton">Copy Email</button>
+    <p id="copyMessage"></p>
+    
+</div>
+<button id="topButton">↑</button>
+ <button id="favoriteButton" type="button">
+    ☆ Add to Favorites
+</button>   
+<p id="favoriteMessage"></p>
+<button id="printButton" type="button">
+    🖨️ Print Website
+</button>
+<p id="printMessage"></p>
+<button id="readingModeButton" type="button">
+    📖 Reading Mode
+</button>
+<div class="font-controls">
+    <button id="increaseFontButton" type="button">
+        A+ Increase Text
+    </button>
+
+    <button id="resetFontButton" type="button">
+        A Reset Text
+    </button>
+</div>
+
+<p id="fontMessage"></p>
+<p id="liveClock"></p>
+<div id="projectModal" class="project-modal">
+    <div class="project-modal-content">
+        <button id="closeProjectModal">×</button>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+        <a id="modalProjectLink" href="#" target="_blank">Visit Project</a>
+    </div>
+</div>
+        <script src="script.js"></script>
+
+        
+    </body>
+</html>

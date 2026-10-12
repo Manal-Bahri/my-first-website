@@ -1,0 +1,883 @@
+body {
+    background: linear-gradient(135deg,lightpink);
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    border: 1px solid #eee;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: #555;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+  body {
+    background: linear-gradient(135deg,lightpink);
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    border: 1px solid #eee;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: #555;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+    transition:  0.3s;
+}
+ 
+button:hover {
+    background-color: hotpink;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+@media (max-width: 600px){
+    .card{
+        width: 80%;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+   
+}
+ .main-button {
+        width: 180px;
+ }
+ .card h1{
+    margin-bottom: 20px;
+ }
+ .card p{
+    margin-bottom: 25px;
+ }
+
+ .card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.card img {
+    width: 158px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.About {
+    margin-top:30px ;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f3e5f5;
+}
+.About h2 {
+    color: rgb(70, 15, 15);
+    margin-bottom: 20px;
+}
+.About p {
+    color: rgb(225, 154, 231);
+    font-size: 17px;
+    line-height: 1.7;
+}
+.skills {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    background-color:white;
+   font-weight: bold;
+   border: 2px solid #ddd;
+   transition: transform 0.3s;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skills h2{
+    text-align: center;
+}
+.skills{
+    display: inline-block;
+}
+.skills:hover {
+    transform:  translateY(-5px);
+}
+a {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+@media(max-widh: 600px) {
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+    .skills {
+        width: 100%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.project {
+
+padding: 15px;
+margin-top: 10px;
+border: 20px solid #ddd;
+border-radius: 15px;
+background-color: #fafafa;
+}
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+    transition:  0.3s;
+}
+ 
+button:hover {
+    background-color: hotpink;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+@media (max-width: 600px){
+    .card{
+        width: 80%;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+   
+}
+ .main-button {
+        width: 180px;
+ }
+ .card h1{
+    margin-bottom: 20px;
+ }
+ .card p{
+    margin-bottom: 25px;
+ }
+
+ .card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.card img {
+    width: 158px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.About {
+    margin-top:30px ;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f3e5f5;
+}
+.About h2 {
+    color: rgb(70, 15, 15);
+    margin-bottom: 20px;
+}
+.About p {
+    color: rgb(225, 154, 231);
+    font-size: 17px;
+    line-height: 1.7;
+}
+.skills {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    background-color:white;
+   font-weight: bold;
+   border: 2px solid #ddd;
+   transition: transform 0.3s;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skills h2{
+    text-align: center;
+}
+.skills{
+    display: inline-block;
+}
+.skills:hover {
+    transform:  translateY(-5px);
+}
+a {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+@media(max-widh: 600px) {
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+    .skills {
+        width: 100%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.project {
+
+padding: 15px;
+margin-top: 10px;
+border: 1px solid #ddd;
+border-radius: 15px;
+background-color: #fafafa;
+}
+.projects {
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.projects h2 {
+    color: purple;
+    margin-bottom: 15px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fafafa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+ 
+.skills {
+width: 200px;
+padding: 10px;
+margin: 5px auto;
+border-radius: 10px;
+background-color: #f3e5f5;
+font-weight: bold;
+}
+.skills:hover {
+    transform: translateY(-5px);
+}
+.dark-mode {
+    background: #222;
+}
+
+.dark-mode .card {
+    background-color: #333;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+    color: #e6ccff;
+}
+
+.dark-mode p {
+    color: #eee;
+}
+.main-button {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.message-animation {
+    animation: fadeIn 1s ease;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.project-list {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 15px;
+    width: 100%;
+}
+
+.project-list .project {
+    flex: 1;
+    width: 0;
+    margin: 0;
+}
+@media (max-width: 600px){
+    .project-list {
+        flex-direction: column !important;
+    }
+    .project-list .project {
+        width: 100%;
+    }
+}
+.project-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+.project-button:hover {
+    transform: scale(1.05);
+}
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: 2px solid purple;
+}
+.send-button {
+    width: 100%;
+    margin: 5px 0 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.send-button:hover {
+    background-color: hotpink;
+    transform: scale(1.02);
+}
+#newMessageButton {
+    display: none;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #e6ccff;
+    color: purple;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#newMessageButton:hover {
+    background-color: purple;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 18px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: hotpink;
+    transform: translateY(-2px);
+}
+.navbar a.active {
+    background-color: hotpink;
+    transform: translateY(-2px);
+}
+.dark-mode {
+    background: #222;
+}
+
+.dark-mode .card {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .card h1,
+.dark-mode .card h2,
+.dark-mode .card h3 {
+    color: #e6ccff;
+}
+
+.dark-mode .card p {
+    color: #eee;
+}
+
+.dark-mode .project {
+    background-color: #444;
+    border-color: #666;
+}
+#forgetNameButton {
+    width: 180px;
+    background-color: #f3e5f5;
+    color: purple;
+    border: 2px solid purple;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#forgetNameButton:hover {
+    background-color: purple;
+    color: white;
+}
+#timeGreeting {
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 20px;
+    animation: greetingAnimation 1s ease;
+}
+@keyframes greetingAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#visitCount {
+    font-size: 15px;
+    color: #777;
+    text-align: center;
+    margin: 5px 0 20px;
+    font-style: italic;
+}
+.visit-box {
+    background-color: #f3e5f5;
+    padding: 10px;
+    margin: 10px auto 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    width: 90%;
+    transition: 0.3s;
+    animation: visitBoxAnimation 0.8s ease;
+}
+.visit-box:hover {
+    transform: translateY(-5px);
+}
+@keyframes visitBoxAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.visit-box h3 {
+    margin: 0 0 5px;
+    color:purple;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.visit-box h3 :hover {
+    transform: scale(1.08);
+}
+
+.visit-box h3 {
+    animation: visitTitleAnimation 0.8s ease;
+}
+@keyframes visitTitleAnimation {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+#resetVisitsButton {
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d946ef;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#resetVisitsButton:hover {
+    transform: scale(1.05);
+}
+#resetMessage {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+#nameCounter {
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    margin: 5px 0 10px;
+}
+#topButton {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #9b59b6, #e84393);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+#topButton:hover {
+    transform: scale(1.1);
+}
+#scrollProgress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: linear-gradient(90deg, #9b59b6, #e84393);
+    z-index: 9999;
+    transition: width 0.1s;
+}
+.project-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.project-modal-content {
+    background: white;
+    width: 80%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: modalAppear 1s ease;
+    
+}
+@keyframes modalAppear {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.project-modal-content h2 {
+    color: purple;
+    margin-bottom: 15px;
+}
+
+.project-modal-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+#closeProjectModal {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #555;
+}
+
+#modalProjectLink {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: purple;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#modalProjectLink:hover {
+    transform: scale(1.05);
+}
+#favoriteButton {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff69b4, #c850c0);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#favoriteButton:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(200, 80, 192, 0.3);
+}
+
+#favoriteMessage {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+}
+#printButton {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #8e44ad, #e84393);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#printButton:hover {
+    transform: scale(1.05);
+}
+
+#printMessage {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+}
+#readingModeButton {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#readingModeButton:hover {
+    transform: translateY(-3px);
+}
+
+body.reading-mode {
+    background: #f4efe6 !important;
+}
+
+body.reading-mode .card,
+body.reading-mode .project,
+body.reading-mode .skills {
+    background: #fffdf7 !important;
+    color: #333 !important;
+}
+
+body.reading-mode p {
+    font-size: 19px;
+    line-height: 1.9;
+    color: #333;
+}
+
+body.reading-mode h1,
+body.reading-mode h2,
+body.reading-mode h3 {
+    color: #4b3869;
+}
+.font-controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px auto;
+}
+
+.font-controls button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #8e44ad, #e84393);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.font-controls button:hover {
+    transform: scale(1.05);
+}
+
+#fontMessage {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+}
+#contactMessageCounter {
+    text-align: right;
+    font-size: 13px;
+    color: #888;
+    margin-top: 5px;
+}
