@@ -4,7 +4,7 @@ My personal Front-End Developer portfolio built with HTML, CSS, and JavaScript.
 
 Live Website
 
-Visit My Portfolio
+[Visit My Portfolio](https://manal-bahri.github.io/my-first-website/)
 
 Technologies Used
 
